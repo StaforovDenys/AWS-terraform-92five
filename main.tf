@@ -1,7 +1,6 @@
 resource "aws_elastic_beanstalk_application" "elasticapp" {
   name = var.elasticapp
 }
-
 # Create elastic beanstalk Environment
 
 resource "aws_elastic_beanstalk_environment" "beanstalkappenv" {
